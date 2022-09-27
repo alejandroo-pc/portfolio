@@ -2,13 +2,6 @@
 let today = new Date();
 let thisYear = today.getFullYear();
 
-/* appending to the footer element */
-const footer = document.querySelector("#footer");
-const content = document.createElement("p");
-
-content.textContent = "Alejandro " + thisYear;
-footer.appendChild(content);
-
 /* appending array of "skills" to unordered list */
 let skills = [
   "Javascript",
@@ -21,11 +14,11 @@ let skills = [
 ];
 
 const skillsSection = document.querySelector("#skills");
-const skillsList = document.querySelector('ul');
+const skillsList = document.querySelector('#skills-list');
 
 for (let i = 0; i < skills.length; i++) {
   const skill = document.createElement("li");
-  skill.classList.add('tag');
+  skill.classList.add('newSkill');
 
   skill.textContent = skills[i];
   skillsList.appendChild(skill);
@@ -68,39 +61,30 @@ messageForm[0].addEventListener("submit", (e) => {
   messageForm[0].reset();
 });
 
-/* initialized varibles for XML requests */
-var githubRequest = new XMLHttpRequest();
-
-githubRequest.open('GET', 'https://api.github.com/users/alejandro-patino-camargo/repos');
-githubRequest.send();
-
-githubRequest.onload = function () {
-  /****  error handling ******/
-
-  /* if server connection is successful */
-  if (githubRequest.status >= 200 && githubRequest.status < 400) { 
-    var ourData = JSON.parse(githubRequest.responseText);
-    console.log("We connected to the sever, no errors were returned");
-
-  /* display data */  
-    console.log(ourData);
-    renderProjects(ourData);
-  } else {
-  /* for debugging purposes */
-     console.log("We connected to the sever, but it returned an error");
+/*error handeling function*/
+function handelError(response) {
+  if (!response.ok) {
+    throw Error(response.statusText);
   }
-};
-/* DOM traversal to display JSON data */
-const projectSection = document.querySelector('#projects');
-const projectList = document.querySelector('#project-list');
+  return response
+}
 
-/* retrieve JSON data through name attribute */
-function renderProjects(data) {
-  for (var i = 0; i < data.length; i++){
-    const project = document.createElement("li");
-    project.classList.add('project');
+/* using fetch() to access github API */
+fetch("https://api.github.com/users/alejandro-patino-camargo/repos")
+  .then(handelError)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    /* DOM traverasal to append github API data */
+    const projectList = document.querySelector('#project-list');
 
-    project.innerHTML = "<ul>" + data[i].name + "</ul>";
-    projectList.appendChild(project);
-  }
-};
+    for (var i = 0; i < data.length; i++) {
+      const project = document.createElement("li");
+      project.classList.add('project');
+
+      // project.innerHTML = `<ul style="padding-left: 0px;"> ${data[i].name}</ul>`
+      project.innerHTML = `<a target="_blank" class="link link--no-decor" href="${data[i].html_url}">${data[i].name}</a>`
+      projectList.appendChild(project);
+    }
+  }).catch(error => console.log(error));
