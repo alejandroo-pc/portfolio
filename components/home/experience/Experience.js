@@ -18,7 +18,7 @@ const experience = [
     position: "Advanced Practicum",
     time: "Feb 2023 - Present",
     location: "Remote",
-    description: "In the 8-week development project where I built a game using Socket.io, I collaborate with developers, designers, and mentors to create a fun and engaging game. In addition, I participated in weekly stand-up meetings and sprint planning sessions to ensure the project was progressing smoothly.",
+    description: "In the 8-week development project where I built a game using Socket.io, I collaborate with developers, designers, and mentors to create a fun and engaging game. In addition, I participated in weekly stand-up meetings and sprint planning sessions to ensure the project is progressing smoothly.",
     tech: ["React", "Tailwind", "Socket-io", "Node", "Express", "MongoDB"],
   },
   {

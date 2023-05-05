@@ -42,10 +42,10 @@ const projects = [
     ),
   },
   {
-    title: "Phrazer.io",
+    title: "PHRAZ_L",
     imgSrc: "project-imgs/practicum.png",
-    code: "https://www.github.com",
-    projectLink: "",
+    code: "https://github.com/Code-the-Dream-School/bb-practicum-team-2-back",
+    projectLink: "https://team2-front.vercel.app/",
     tech: ["React", "Tailwind", "Socket-io", "NodeJS", "Express"],
     description:
       "A wordl type game that challenges players to guess a word or phrase (In development).",

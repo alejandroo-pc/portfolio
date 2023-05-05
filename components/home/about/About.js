@@ -20,7 +20,7 @@ export const About = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I currently intern for DreamSF on the Pathways to Citizenship initiative.
+              I'm currently a follow for DreamSF on the Pathways to Citizenship initiative.
               I am also part of an advanced practicum building a web app using React,
               Socket-io, and Node with students from Code The Dream.
             </p>
