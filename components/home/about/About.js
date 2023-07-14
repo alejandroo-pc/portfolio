@@ -13,28 +13,39 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Hey! I'm Alejandro, if you still need to gather that by now.
-              I'm a full-stack software developer from California specializing in the backend, primarily Node,
-              but I love building with whatever tools are suitable for the job.
+              I'm a full-stack software developer from California specializing
+              in the backend, primarily Node, but I love building with whatever
+              tools are suitable for the job.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I'm currently a follow for DreamSF on the Pathways to Citizenship initiative.
-              I am also part of an advanced practicum building a web app using React,
-              Socket-io, and Node with students from Code The Dream.
+              I'm currently a follow for{" "}
+              <a
+                className={styles.linkGlow}
+                href="https://www.dreamsffellows.org/2022/alejandro"
+                target="_blank"
+              >
+                DreamSF{" "}
+              </a>{" "}
+              on the Pathways to Citizenship initiative. I also finished Code
+              The Dream's advanced practicum where a small develpment team built
+              a web app using React, and Socket-io.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              Outside of work, I love to play music as a DJ and curate playlists for the perfect occasion 🎛️.
-              I also have a passion for filmmaking and photography, especially shooting 35mm film with my Nikon f-2.📸
+              Outside of work, I love to play music as a DJ and curate playlists
+              for the perfect occasion 🎛️. I also have a passion for filmmaking
+              and photography, especially shooting 35mm film with my Nikon
+              f-2.📸
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I'm looking for new positions where I can merge my love for code with my passion for music and cinema.
-              So let's connect if you've got an opening I might like.🔗
+              I'm looking for new positions where I can merge my love for code
+              with my passion for music and cinema. So let's connect if you've
+              got an opening I might like.🔗
             </p>
           </Reveal>
           <Reveal>
