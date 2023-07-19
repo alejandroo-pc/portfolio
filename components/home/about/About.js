@@ -44,8 +44,8 @@ export const About = () => {
           <Reveal>
             <p className={styles.aboutText}>
               I'm looking for new positions where I can merge my love for code
-              with my passion for music and cinema. So let's connect if you've
-              got an opening I might like.🔗
+              with my passion for music and cinema. Let's connect if you've got
+              an opening I might like.🔗
             </p>
           </Reveal>
           <Reveal>
