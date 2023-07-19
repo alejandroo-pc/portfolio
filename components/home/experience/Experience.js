@@ -24,7 +24,7 @@ const experience = [
       "PowerBI",
       "Microsoft Suite",
       "Figma",
-      "Spanish translastion & inmerpretation",
+      "Spanish translastion & interpretation",
     ],
   },
 

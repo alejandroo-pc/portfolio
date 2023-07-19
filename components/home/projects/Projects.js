@@ -20,9 +20,9 @@ const projects = [
   {
     title: "PHRAZ_L",
     imgSrc: "project-imgs/practicum.png",
-    code: "https://github.com/Code-the-Dream-School/bb-practicum-team-2-back",
-    projectLink: "https://team2-front.vercel.app/",
-    tech: ["React", "Tailwind", "Socket-io", "NodeJS", "Express"],
+    code: "https://github.com/wowgr8/phrazel-backend",
+    projectLink: "https://phrazel-frontend.vercel.app/",
+    tech: ["React", "Tailwind", "Socket-io", "NodeJS", "Express", "MongoDB"],
     description:
       "A wordl type game that challenges players to guess a word or phrase.",
     modalContent: (
@@ -74,6 +74,30 @@ const projects = [
         <p>
           Since this is my first app, I had an emphisis in building a strong
           backend. The frontend is intended to be minimal and easily navigated.{" "}
+        </p>
+      </>
+    ),
+  },
+
+  {
+    title: "This portfolio!",
+    imgSrc: "project-imgs/port-1.png",
+    code: "https://github.com/Alejandro-Patino-Camargo/portfolio",
+    projectLink: " https://alejandro-patino-portfolio.netlify.app/",
+    tech: ["React", "Next.js", "scss", "Javascript"],
+    description:
+      "Checkout what I used to create this portfolio, clone and adjust to your style!",
+    modalContent: (
+      <>
+        <p>
+          {" "}
+          Welcome to my portfolio, where design and UX/UI take center stage.
+          Powered by React, Next.js, and SCSS, this showcase offers a seamless,
+          easy-to-follow website experience. A minimalist UI gracefully adapts
+          to all devices, ensuring a consistent journey. Emphasizing
+          inclusivity, the portfolio adheres to WCAG(accessibility) guidelines.
+          Continuous design refinement ensures an ever-evolving user-friendly
+          experience.
         </p>
       </>
     ),
