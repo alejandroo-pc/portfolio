@@ -19,7 +19,7 @@ const experience = [
     time: "May 2023 - Present ",
     location: "San Fransisco",
     description:
-      "I assist creating visualizations to illustrate the activities of Community Ambassadors across San Francisco. I helped enhance bar graphs and interactive dashboards to outline their activities, such as reporting emergencies, providing safety escorts, and conducting wellness checks. I followed Accessibility Guidelines to ensure that the visualizations were easy to understand for everyone. Working closely with the data analyst, I helped to provide a better understanding of the impact of the CAP program in different neighborhoods.",
+      "I assist creating visualizations to illustrate the activities of Community Ambassadors across San Francisco. I helped enhance bar graphs and interactive dashboards to outline their activities, such as reporting emergencies, providing safety escorts, and conducting wellness checks. Collaborating closely with the data analyst, I contributed to a comprehensive understanding of the CAP program's impact across diverse neighborhoods. The visualizations present an accessible and insightful perspective for everyone involved. ",
     tech: [
       "PowerBI",
       "Microsoft Suite",
@@ -34,7 +34,7 @@ const experience = [
     time: "Feb 2023 - May 2023 ",
     location: "Remote",
     description:
-      "In the 8-week development, I collaborate with developers and mentors to create an engaging game using Socket-io. In addition, I participated in weekly stand-up meetings and sprint planning sessions to ensure the project is progressing smoothly.",
+      "In the 8-week development cycle, I collaborate with developers and mentors to create an engaging game using Socket-io. In addition, I participated in weekly stand-up meetings and sprint planning sessions to ensure the project is progressing smoothly.",
     tech: [
       "React",
       "Tailwind",
@@ -53,7 +53,7 @@ const experience = [
     time: "July 2022 - May 2023",
     location: "San Fransisco",
     description:
-      "As a Social Media Lead for the DreamSF application, I was responsible for promoting the application through social media channels, coordinating tasks, facilitating meetings, and developing newsletters communicating job opportunities for the DreamSF network.",
+      "As a Social Media Lead for the DreamSF, I was responsible for promoting the fellowship application through social media channels, coordinating tasks, facilitating meetings, and developing newsletters communicating job opportunities for the DreamSF network.",
     tech: [
       "Canva",
       "Mailchimp",

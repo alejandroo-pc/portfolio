@@ -21,7 +21,7 @@ const projects = [
     title: "PHRAZ_L",
     imgSrc: "project-imgs/practicum.png",
     code: "https://github.com/wowgr8/phrazel-backend",
-    projectLink: "https://phrazel-frontend.vercel.app/",
+    projectLink: "https://phrazel.vercel.app/",
     tech: ["React", "Tailwind", "Socket-io", "NodeJS", "Express", "MongoDB"],
     description:
       "A wordl type game that challenges players to guess a word or phrase.",
@@ -33,7 +33,7 @@ const projects = [
           visually stunning.
         </p>
         <p>
-          During the 8 week project, we followed an agile workflow, planning
+          During the 8 week practicum, we followed an agile workflow, planning
           sprints and iterating on features. This allowed us to quickly adapt to
           changes and improve the game as we went along.
         </p>
@@ -57,24 +57,24 @@ const projects = [
     title: "Song Request API",
     imgSrc: "project-imgs/song-request.png",
     code: "https://github.com/Alejandro-Patino-Camargo/song-request-api",
-    projectLink: "https://song-request-api.onrender.com/",
+    projectLink: "https://song-request-api.onrender.com",
     tech: ["Javascript", "NodeJS", "Express", "MongoDB"],
     description:
       "A song reqest app that allows DJ's to easily scope out a crowd and play the right song at the right time.",
     modalContent: (
       <>
         <p>
-          A REST API for a song request app. The API is built with NodeJS,
-          Express, and MongoDB and is deployed on Render.
+          Introducing my first web app—a REST API for song requests. The
+          backend, powered by NodeJS, Express, and MongoDB, ensures seamless
+          performance and data management.
         </p>
         <p>
-          The app is built with a node backend, with data stored in MongoDB. The
-          frontend is built vanilla html and css. The API is deployed on Render.
+          The frontend, built with vanilla HTML and CSS, prioritizes simplicity
+          and easy navigation. As a debut project, I focus on delivering a
+          user-friendly experience and laying the foundation for future
+          improvements.
         </p>
-        <p>
-          Since this is my first app, I had an emphisis in building a strong
-          backend. The frontend is intended to be minimal and easily navigated.{" "}
-        </p>
+        <p>Your song requests are waiting! </p>
       </>
     ),
   },
