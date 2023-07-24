@@ -34,6 +34,19 @@
   }
 }
 
+.contactCopySmall {
+  text-align: center;
+  font-weight: 200;
+  padding-bottom: 20px;
+  a {
+    color: var(--brand);
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
 .contactEmail {
   display: flex;
   align-items: center;

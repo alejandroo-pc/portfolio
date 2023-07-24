@@ -20,9 +20,21 @@ export const Contact = () => {
               target="_blank"
               rel="nofollow"
             >
-              Linkedin
+              Linkedin.
             </Link>{" "}
           </p>
+          <Reveal width="100%">
+            <p className={styles.contactCopySmall}>
+              Schedule a chat with me on{" "}
+              <Link
+                href="https://calendly.com/alejandropc"
+                target="_blank"
+                rel="nofollow"
+              >
+                Calendly
+              </Link>{" "}
+            </p>
+          </Reveal>
         </Reveal>
         <Reveal width="100%">
           <Link href="mailto:alejandropatinoc@gmail.com">
