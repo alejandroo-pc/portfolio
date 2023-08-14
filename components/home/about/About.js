@@ -20,7 +20,7 @@ export const About = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I'm currently a follow for{" "}
+              I'm currently a senior fellow for{" "}
               <a
                 className={styles.linkGlow}
                 href="https://www.dreamsffellows.org/2022/alejandro"
@@ -28,24 +28,24 @@ export const About = () => {
               >
                 DreamSF{" "}
               </a>{" "}
-              on the Pathways to Citizenship initiative. I also finished Code
-              The Dream's advanced practicum where a small develpment team built
-              a web app using React, and Socket-io.
+              as a data analyst assistant. I recetly finished Code The Dream's
+              advanced practicum where a develpment team built a web app using
+              React, websockets, and node .
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
               Outside of work, I love to play music as a DJ and curate playlists
               for the perfect occasion 🎛️. I also have a passion for filmmaking
-              and photography, especially shooting 35mm film with my Nikon
-              f-2.📸
+              and photography, especially shooting 35mm film with my Nikon f-2
+              📸.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
               I'm looking for new positions where I can merge my love for code
               with my passion for music and cinema. Let's connect if you've got
-              an opening I might like.🔗
+              an opening I might like 🔗.
             </p>
           </Reveal>
           <Reveal>

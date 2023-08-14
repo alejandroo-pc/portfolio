@@ -68,7 +68,7 @@ const experience = [
     time: "Nov 2022 - Jan 2023",
     location: "Remote",
     description:
-      "I gained hands-on experience building server-side applications, creating APIs, and working with databases. In addition, I understand NodeJS concepts such as routes, middleware, event-driven programming, and asynchronous code.",
+      "I built server-side applications, created APIs, and worked with databases. In addition, I understand NodeJS concepts such as routes, middleware, event-driven programming, and asynchronous code.",
     tech: ["Javascript", "NodeJS", "Express", "MongoDB"],
   },
 

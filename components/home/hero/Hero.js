@@ -19,9 +19,11 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
-            I'm a first-generation college student with a human-centered approach to the web.
-            I aim to empower underrepresented communities by helping businesses establish a robust online presence through personalized websites.
-            With a keen eye for design and a strong technical skillset, I'm committed to bridging the digital divide.
+            I'm a first-generation college student with a human-centered
+            approach to the web. I aim to empower underrepresented communities
+            by helping businesses establish a robust online presence through
+            personalized websites. With a keen eye for design and a strong
+            technical skillset, I'm committed to bridging the digital divide.
           </p>
         </Reveal>
         <Reveal>
@@ -32,7 +34,10 @@ export const Hero = () => {
           </StandardButton>
         </Reveal>
       </div>
-      <DotGrid />
+      {/*  
+      TODO: media queries to not render DotGrid for mobile devices
+      <DotGrid /> 
+      */}
     </section>
   );
 };
