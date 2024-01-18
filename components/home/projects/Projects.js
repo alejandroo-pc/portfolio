@@ -18,6 +18,45 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Skill Stacks",
+    imgSrc: "project-imgs/skill-stacks.png",
+    code: "https://github.com/Alejandro-Patino-Camargo/ee-prac-team4-front",
+    projectLink: "https://ee-prac-team4-front.vercel.app/",
+    tech: ["React", "Radix-UI", "NodeJS", "Express", "MongoDB"],
+    description:
+      "Skill Stacks is a flashcard app designed to enhance learning and memory retention.",
+    modalContent: (
+      <>
+        <p>
+          At the heart of Skill Stacks is the user-centered UI, meticulously
+          designed to create an intuitive and engaging learning environment. As
+          the UI designer, I focused on crafting an interface that not only
+          looks aesthetically pleasing but also facilitates easy navigation and
+          interaction, ensuring that users remain at the core of the UX design.
+        </p>
+        <p>
+          Developed using React and incorporating Radix-UI, Skill Stacks offers
+          a dynamic and user-friendly interface for effective learning. Our
+          application's design approach makes complex functionalities
+          accessible, enhancing the overall user experience.
+        </p>
+        <p>
+          The backend, powered by NodeJS and Express, provides a robust and
+          scalable foundation. It supports a wide range of features essential
+          for a comprehensive learning tool, from private to public flashcard
+          management. MongoDB serves as our database of choice, offering
+          flexibility and efficiency
+        </p>
+        <p>
+          Throughout the 8-week development cycle, our team embraced an agile
+          methodology, focusing on iterative design and continuous improvement.
+          This approach allowed us to refine our app's functionality and user
+          interface, ensuring a seamless and enjoyable learning experience.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "PHRAZ_L",
     imgSrc: "project-imgs/practicum.png",
     code: "https://github.com/wowgr8/phrazel-backend",
