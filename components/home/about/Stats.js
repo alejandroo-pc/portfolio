@@ -34,6 +34,7 @@ export const Stats = () => {
             <span className="chip">Figma</span>
             <span className="chip">Canva</span>
             <span className="chip">Notion</span>
+            <span className="chip">Ubuntu</span>
           </div>
         </div>
       </Reveal>

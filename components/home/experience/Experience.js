@@ -19,8 +19,9 @@ const experience = [
     time: "May 2023 - Present ",
     location: "San Fransisco",
     description:
-      "I assist creating visualizations to illustrate the activities of Community Ambassadors across San Francisco. I helped enhance bar graphs and interactive dashboards to outline their activities, such as reporting emergencies, providing safety escorts, and conducting wellness checks. Collaborating closely with the data analyst, I contributed to a comprehensive understanding of the CAP program's impact across diverse neighborhoods. The visualizations present an accessible and insightful perspective for everyone involved. ",
+      "In my role, I lead the creation and enhancement of visualizations for the Community Ambassadors Program (CAP) in San Francisco, utilizing tools like Excel, Power BI, and the Microsoft Suite. My work involves developing interactive dashboards and bar graphs to effectively display key activities by six CAP teams. Collaborating closely with data analyst, I play a pivotal role in deepening our understanding of the program's impact across diverse neighborhoods. I prioritize making these visualizations both insightful and accessible, ensuring they offer a clear and inclusive perspective of our community initiatives.",
     tech: [
+      "Excel",
       "PowerBI",
       "Microsoft Suite",
       "Figma",
@@ -30,7 +31,17 @@ const experience = [
 
   {
     title: "Code The Dream",
-    position: "Advanced Practicum Fellow",
+    position: "Frontend Fellow",
+    time: "October 2023 - December 2023",
+    location: "Remote",
+    description:
+      "Participated in the frontend development of Skill Stacks, a dynamic flashcard app, during an 8-week Practicum. Collaborated with a team of developers to design and implement engaging features, ensuring seamless integration and user experience. Actively participated in weekly stand-up meetings and sprint planning, contributing to the project's agile development process.",
+    tech: ["React", "Radix-UI", "NodeJS", "Express", "MongoDB", "Git", "Agile"],
+  },
+
+  {
+    title: "Code The Dream",
+    position: "Backend Fellow",
     time: "Feb 2023 - May 2023 ",
     location: "Remote",
     description:

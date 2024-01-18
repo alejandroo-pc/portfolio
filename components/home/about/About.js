@@ -14,8 +14,8 @@ export const About = () => {
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
               I'm a full-stack software developer from California specializing
-              in the backend, primarily Node, but I love building with whatever
-              tools are suitable for the job.
+              in the frontend, primarily React, but I love building with
+              whatever tools are suitable for the job.
             </p>
           </Reveal>
           <Reveal>
@@ -26,11 +26,11 @@ export const About = () => {
                 href="https://www.dreamsffellows.org/2022/alejandro"
                 target="_blank"
               >
-                DreamSF{" "}
+                DreamSF
               </a>{" "}
               as a data analyst assistant. I recetly finished Code The Dream's
               advanced practicum where a develpment team built a web app using
-              React, websockets, and node .
+              React, websockets, and node.
             </p>
           </Reveal>
           <Reveal>

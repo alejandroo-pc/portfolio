@@ -18,6 +18,46 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Community Ambassadors Data Dashboard",
+    imgSrc: "project-imgs/pbi-5.png",
+    code: "https://www.sf.gov/data/community-ambassadors-program-data-2023-2024",
+    projectLink:
+      "https://github.com/Alejandro-Patino-Camargo/ee-prac-team4-front",
+    tech: ["Excel", "Power BI", "PowerPoint", "Microsoft Suite"],
+    description:
+      "Data dashboard showcasing key activities of San Francisco's Community Ambassadors (CAP) to illustrate the program's impact.",
+    modalContent: (
+      <>
+        <p>
+          Now in my second year of leading this project, I have emphasized
+          attention to detail, particularly in accessibility. This includes
+          ensuring the use of accessible colors and providing alt text for each
+          page, making the data visualizations inclusive for all users.
+        </p>
+        <p>
+          My role has involved extensive data cleaning, organization, and
+          deployment, using tools such as Excel and Power BI. These efforts have
+          been crucial in maintaining the integrity and accuracy of the data,
+          which is vital for effective decision-making and program evaluation.
+        </p>
+        <p>
+          The dashboards are meticulously updated on a monthly basis, reflecting
+          the latest activities and insights. This consistent update cycle is
+          essential for providing stakeholders with a current and comprehensive
+          view of the program’s impact.
+        </p>
+        <p>
+          Collaborating closely with the data analyst, we have enhanced the
+          project’s scope and depth. Our efforts have led to more insightful
+          visualizations, offering an accessible and detailed perspective on the
+          Community Ambassadors Programs' activities across diverse
+          neighborhoods.
+        </p>
+      </>
+    ),
+  },
+
+  {
     title: "Skill Stacks",
     imgSrc: "project-imgs/skill-stacks.png",
     code: "https://github.com/Alejandro-Patino-Camargo/ee-prac-team4-front",
@@ -56,6 +96,7 @@ const projects = [
       </>
     ),
   },
+
   {
     title: "PHRAZ_L",
     imgSrc: "project-imgs/practicum.png",
