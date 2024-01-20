@@ -1,4 +1,4 @@
-import styles from "./standardbutton.module.scss";
+import styles from './standardbutton.module.scss';
 
 export const StandardButton = ({ children, onClick }) => {
   return (

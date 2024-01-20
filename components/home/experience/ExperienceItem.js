@@ -1,5 +1,5 @@
-import { Reveal } from "@/components/utils/Reveal";
-import styles from "./experience.module.scss";
+import { Reveal } from '@/components/utils/Reveal';
+import styles from './experience.module.scss';
 
 export const ExperienceItem = ({
   title,
@@ -34,7 +34,7 @@ export const ExperienceItem = ({
       <Reveal>
         <div className={styles.tech}>
           {tech.map((item) => (
-            <span key={item} className="chip">
+            <span key={item} className='chip'>
               {item}
             </span>
           ))}

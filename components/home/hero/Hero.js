@@ -1,7 +1,7 @@
-import { StandardButton } from "@/components/buttons/StandardButton";
-import { Reveal } from "@/components/utils/Reveal";
-import { DotGrid } from "./DotGrid";
-import styles from "./hero.module.scss";
+import { StandardButton } from '@/components/buttons/StandardButton';
+import { Reveal } from '@/components/utils/Reveal';
+import { DotGrid } from './DotGrid';
+import styles from './hero.module.scss';
 
 export const Hero = () => {
   return (
@@ -28,7 +28,7 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <StandardButton
-            onClick={() => document.getElementById("contact")?.scrollIntoView()}
+            onClick={() => document.getElementById('contact')?.scrollIntoView()}
           >
             Contact me
           </StandardButton>

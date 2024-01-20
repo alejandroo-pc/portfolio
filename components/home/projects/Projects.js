@@ -1,11 +1,11 @@
-import { SectionHeader } from "@/components/utils/SectionHeader";
-import { Project } from "./Project";
-import styles from "./projects.module.scss";
+import { SectionHeader } from '@/components/utils/SectionHeader';
+import { Project } from './Project';
+import styles from './projects.module.scss';
 
 export const Projects = () => {
   return (
-    <section className="section-wrapper" id="projects">
-      <SectionHeader title="Projects" dir="r" />
+    <section className='section-wrapper' id='projects'>
+      <SectionHeader title='Projects' dir='r' />
 
       <div className={styles.projects}>
         {projects.map((project) => {
@@ -18,11 +18,11 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "Community Ambassadors Data Dashboard",
-    imgSrc: "project-imgs/pb.png",
-    code: "https://www.sf.gov/data/community-ambassadors-program-data-2023-2024",
-    projectLink: "httpstalmmunity-ambassadors-program-data-2023-2024",
-    tech: ["Excel", "Power BI", "PowerPoint", "Microsoft Suite"],
+    title: 'Community Ambassadors Data Dashboard',
+    imgSrc: 'project-imgs/pb.png',
+    code: 'https://www.sf.gov/data/community-ambassadors-program-data-2023-2024',
+    projectLink: 'httpstalmmunity-ambassadors-program-data-2023-2024',
+    tech: ['Excel', 'Power BI', 'PowerPoint', 'Microsoft Suite'],
     description:
       "Data dashboard showcasing key activities of San Francisco's Community Ambassadors (CAP) to illustrate the program's impact.",
     modalContent: (
@@ -57,13 +57,13 @@ const projects = [
   },
 
   {
-    title: "Skill Stacks",
-    imgSrc: "project-imgs/skill-stacks.png",
-    code: "https://github.com/Alejandro-Patino-Camargo/ee-prac-team4-front",
-    projectLink: "https://ee-prac-team4-front.vercel.app/",
-    tech: ["React", "Radix-UI", "NodeJS", "Express", "MongoDB"],
+    title: 'Skill Stacks',
+    imgSrc: 'project-imgs/skill-stacks.png',
+    code: 'https://github.com/Alejandro-Patino-Camargo/ee-prac-team4-front',
+    projectLink: 'https://ee-prac-team4-front.vercel.app/',
+    tech: ['React', 'Radix-UI', 'NodeJS', 'Express', 'MongoDB'],
     description:
-      "Skill Stacks is a flashcard app designed to enhance learning and memory retention.",
+      'Skill Stacks is a flashcard app designed to enhance learning and memory retention.',
     modalContent: (
       <>
         <p>
@@ -97,13 +97,13 @@ const projects = [
   },
 
   {
-    title: "PHRAZ_L",
-    imgSrc: "project-imgs/practicum.png",
-    code: "https://github.com/wowgr8/phrazel-backend",
-    projectLink: "https://phrazel.vercel.app/",
-    tech: ["React", "Tailwind", "Socket-io", "NodeJS", "Express", "MongoDB"],
+    title: 'PHRAZ_L',
+    imgSrc: 'project-imgs/practicum.png',
+    code: 'https://github.com/wowgr8/phrazel-backend',
+    projectLink: 'https://phrazel.vercel.app/',
+    tech: ['React', 'Tailwind', 'Socket-io', 'NodeJS', 'Express', 'MongoDB'],
     description:
-      "A wordl type game that challenges players to guess a word or phrase.",
+      'A wordl type game that challenges players to guess a word or phrase.',
     modalContent: (
       <>
         <p>
@@ -133,11 +133,11 @@ const projects = [
   },
 
   {
-    title: "Song Request API",
-    imgSrc: "project-imgs/song-request.png",
-    code: "https://github.com/Alejandro-Patino-Camargo/song-request-api",
-    projectLink: "https://song-request-api.onrender.com",
-    tech: ["Javascript", "NodeJS", "Express", "MongoDB"],
+    title: 'Song Request API',
+    imgSrc: 'project-imgs/song-request.png',
+    code: 'https://github.com/Alejandro-Patino-Camargo/song-request-api',
+    projectLink: 'https://song-request-api.onrender.com',
+    tech: ['Javascript', 'NodeJS', 'Express', 'MongoDB'],
     description:
       "A song reqest app that allows DJ's to easily scope out a crowd and play the right song at the right time.",
     modalContent: (
@@ -159,17 +159,17 @@ const projects = [
   },
 
   {
-    title: "This portfolio!",
-    imgSrc: "project-imgs/port-1.png",
-    code: "https://github.com/Alejandro-Patino-Camargo/portfolio",
-    projectLink: " https://alejandropatino.io",
-    tech: ["React", "Next.js", "scss", "Javascript"],
+    title: 'This portfolio!',
+    imgSrc: 'project-imgs/port-1.png',
+    code: 'https://github.com/Alejandro-Patino-Camargo/portfolio',
+    projectLink: ' https://alejandropatino.io',
+    tech: ['React', 'Next.js', 'scss', 'Javascript'],
     description:
-      "Checkout what I used to create this portfolio, clone and adjust to your style!",
+      'Checkout what I used to create this portfolio, clone and adjust to your style!',
     modalContent: (
       <>
         <p>
-          {" "}
+          {' '}
           Welcome to my portfolio, where design and UX/UI take center stage.
           Powered by React, Next.js, and SCSS, this showcase offers a seamless,
           easy-to-follow website experience. A minimalist UI gracefully adapts
@@ -183,14 +183,14 @@ const projects = [
   },
 
   {
-    title: "Linear Algebra Matrix Determinant Calculator",
-    imgSrc: "project-imgs/matrix.png",
-    code: "https://github.com/Alejandro-Patino-Camargo/Determinant-Calculator",
+    title: 'Linear Algebra Matrix Determinant Calculator',
+    imgSrc: 'project-imgs/matrix.png',
+    code: 'https://github.com/Alejandro-Patino-Camargo/Determinant-Calculator',
     projectLink:
-      "https://replit.com/@AlejandroPatinoCamargo/Matrix-Determinant-calculator#main.cpp",
-    tech: ["C++"],
+      'https://replit.com/@AlejandroPatinoCamargo/Matrix-Determinant-calculator#main.cpp',
+    tech: ['C++'],
     description:
-      "The following C++ code will calculate the determinant of a 2x2 - 10x10 matrix",
+      'The following C++ code will calculate the determinant of a 2x2 - 10x10 matrix',
     modalContent: (
       <>
         <p>

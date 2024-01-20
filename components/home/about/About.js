@@ -1,14 +1,14 @@
-import { MyLinks } from "@/components/nav/components/MyLinks";
-import { Reveal } from "@/components/utils/Reveal";
-import { SectionHeader } from "@/components/utils/SectionHeader";
-import styles from "./about.module.scss";
-import { Stats } from "./Stats";
-import { AiOutlineArrowRight } from "react-icons/ai";
+import { MyLinks } from '@/components/nav/components/MyLinks';
+import { Reveal } from '@/components/utils/Reveal';
+import { SectionHeader } from '@/components/utils/SectionHeader';
+import styles from './about.module.scss';
+import { Stats } from './Stats';
+import { AiOutlineArrowRight } from 'react-icons/ai';
 
 export const About = () => {
   return (
-    <section id="about" className="section-wrapper">
-      <SectionHeader title="About" dir="l" />
+    <section id='about' className='section-wrapper'>
+      <SectionHeader title='About' dir='l' />
       <div className={styles.about}>
         <div>
           <Reveal>
@@ -20,14 +20,14 @@ export const About = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I'm currently a senior fellow for{" "}
+              I'm currently a senior fellow for{' '}
               <a
                 className={styles.linkGlow}
-                href="https://www.dreamsffellows.org/2022/alejandro"
-                target="_blank"
+                href='https://www.dreamsffellows.org/2022/alejandro'
+                target='_blank'
               >
                 DreamSF
-              </a>{" "}
+              </a>{' '}
               as a data analyst assistant. I recetly finished Code The Dream's
               advanced practicum where a develpment team built a web app using
               React, websockets, and node.

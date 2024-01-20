@@ -1,10 +1,10 @@
-import { SectionHeader } from "@/components/utils/SectionHeader";
-import { ExperienceItem } from "./ExperienceItem";
+import { SectionHeader } from '@/components/utils/SectionHeader';
+import { ExperienceItem } from './ExperienceItem';
 
 export const Experience = () => {
   return (
-    <section className="section-wrapper" id="experience">
-      <SectionHeader title="Experience" dir="l" />
+    <section className='section-wrapper' id='experience'>
+      <SectionHeader title='Experience' dir='l' />
       {experience.map((item) => (
         <ExperienceItem key={item.title} {...item} />
       ))}
@@ -14,92 +14,92 @@ export const Experience = () => {
 
 const experience = [
   {
-    title: "SF Pathways",
-    position: "Fellow",
-    time: "May 2023 - Present ",
-    location: "San Fransisco",
+    title: 'SF Pathways',
+    position: 'Fellow',
+    time: 'May 2023 - Present ',
+    location: 'San Fransisco',
     description:
       "In my role, I lead the creation and enhancement of visualizations for the Community Ambassadors Program (CAP) in San Francisco, utilizing tools like Excel, Power BI, and the Microsoft Suite. My work involves developing interactive dashboards and bar graphs to effectively display key activities by six CAP teams. Collaborating closely with data analyst, I play a pivotal role in deepening our understanding of the program's impact across diverse neighborhoods. I prioritize making these visualizations both insightful and accessible, ensuring they offer a clear and inclusive perspective of our community initiatives.",
     tech: [
-      "Excel",
-      "PowerBI",
-      "Microsoft Suite",
-      "Figma",
-      "Spanish translastion & interpretation",
+      'Excel',
+      'PowerBI',
+      'Microsoft Suite',
+      'Figma',
+      'Spanish translastion & interpretation',
     ],
   },
 
   {
-    title: "Code The Dream",
-    position: "Frontend Fellow",
-    time: "October 2023 - December 2023",
-    location: "Remote",
+    title: 'Code The Dream',
+    position: 'Frontend Fellow',
+    time: 'October 2023 - December 2023',
+    location: 'Remote',
     description:
       "Participated in the frontend development of Skill Stacks, a dynamic flashcard app, during an 8-week Practicum. Collaborated with a team of developers to design and implement engaging features, ensuring seamless integration and user experience. Actively participated in weekly stand-up meetings and sprint planning, contributing to the project's agile development process.",
-    tech: ["React", "Radix-UI", "NodeJS", "Express", "MongoDB", "Git", "Agile"],
+    tech: ['React', 'Radix-UI', 'NodeJS', 'Express', 'MongoDB', 'Git', 'Agile'],
   },
 
   {
-    title: "Code The Dream",
-    position: "Backend Fellow",
-    time: "Feb 2023 - May 2023 ",
-    location: "Remote",
+    title: 'Code The Dream',
+    position: 'Backend Fellow',
+    time: 'Feb 2023 - May 2023 ',
+    location: 'Remote',
     description:
-      "In the 8-week development cycle, I collaborate with developers and mentors to create an engaging game using Socket-io. In addition, I participated in weekly stand-up meetings and sprint planning sessions to ensure the project is progressing smoothly.",
+      'In the 8-week development cycle, I collaborate with developers and mentors to create an engaging game using Socket-io. In addition, I participated in weekly stand-up meetings and sprint planning sessions to ensure the project is progressing smoothly.',
     tech: [
-      "React",
-      "Tailwind",
-      "Socket-io",
-      "Node",
-      "Express",
-      "MongoDB",
-      "Jira",
-      "Agile",
+      'React',
+      'Tailwind',
+      'Socket-io',
+      'Node',
+      'Express',
+      'MongoDB',
+      'Jira',
+      'Agile',
     ],
   },
 
   {
-    title: "DreamSF",
-    position: "Fellow",
-    time: "July 2022 - May 2023",
-    location: "San Fransisco",
+    title: 'DreamSF',
+    position: 'Fellow',
+    time: 'July 2022 - May 2023',
+    location: 'San Fransisco',
     description:
-      "As a Social Media Lead for the DreamSF, I was responsible for promoting the fellowship application through social media channels, coordinating tasks, facilitating meetings, and developing newsletters communicating job opportunities for the DreamSF network.",
+      'As a Social Media Lead for the DreamSF, I was responsible for promoting the fellowship application through social media channels, coordinating tasks, facilitating meetings, and developing newsletters communicating job opportunities for the DreamSF network.',
     tech: [
-      "Canva",
-      "Mailchimp",
-      "Microsoft Suite",
-      "Spanish translastion & interpretation",
+      'Canva',
+      'Mailchimp',
+      'Microsoft Suite',
+      'Spanish translastion & interpretation',
     ],
   },
 
   {
-    title: "Code The Dream",
-    position: "NodeJS Backend Student",
-    time: "Nov 2022 - Jan 2023",
-    location: "Remote",
+    title: 'Code The Dream',
+    position: 'NodeJS Backend Student',
+    time: 'Nov 2022 - Jan 2023',
+    location: 'Remote',
     description:
-      "I built server-side applications, created APIs, and worked with databases. In addition, I understand NodeJS concepts such as routes, middleware, event-driven programming, and asynchronous code.",
-    tech: ["Javascript", "NodeJS", "Express", "MongoDB"],
+      'I built server-side applications, created APIs, and worked with databases. In addition, I understand NodeJS concepts such as routes, middleware, event-driven programming, and asynchronous code.',
+    tech: ['Javascript', 'NodeJS', 'Express', 'MongoDB'],
   },
 
   {
-    title: "Mission Economic Development Agency",
-    position: "Data Evaluation Fellow",
-    time: "August 2022 - December 2023",
-    location: "San Fransisco",
+    title: 'Mission Economic Development Agency',
+    position: 'Data Evaluation Fellow',
+    time: 'August 2022 - December 2023',
+    location: 'San Fransisco',
     description:
-      "Collected, analyzed, and interpreted data to support decision-making processes within the organization. I utilized various data analysis techniques and tools to identify patterns, trends, and insights from large data sets.",
-    tech: ["Goolgle sheets", "Google analytics"],
+      'Collected, analyzed, and interpreted data to support decision-making processes within the organization. I utilized various data analysis techniques and tools to identify patterns, trends, and insights from large data sets.',
+    tech: ['Goolgle sheets', 'Google analytics'],
   },
 
   {
-    title: "Luther Burbank Middleschool School",
-    position: "Math & Science Tutor",
-    time: "Jan 2022 - May 2022",
-    location: "San Jose, CA",
+    title: 'Luther Burbank Middleschool School',
+    position: 'Math & Science Tutor',
+    time: 'Jan 2022 - May 2022',
+    location: 'San Jose, CA',
     description:
       "I Provided personalized academic support to students in grades 6. I work one-on-one with students to help them better understand scientific and mathematical concepts, improve their problem-solving skills, and prepare for tests and exams. My tutoring sessions are tailored to each student's unique learning style and needs. In addition, I use various teaching methods, including interactive activities and visual aids to help students make connections between different topics.",
-    tech: ["Google Classroom", "Notability"],
+    tech: ['Google Classroom', 'Notability'],
   },
 ];
