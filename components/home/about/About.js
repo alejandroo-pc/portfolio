@@ -13,9 +13,9 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              I'm a full-stack software developer from California specializing
-              in the frontend, primarily React, but I love building with
-              whatever tools are suitable for the job.
+              I am a full-stack software developer based in California with a
+              specialization in frontend development, particularly in React.
+              However, I am adaptable in using appropriate tools for the job.
             </p>
           </Reveal>
           <Reveal>
