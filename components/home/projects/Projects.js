@@ -19,7 +19,7 @@ export const Projects = () => {
 const projects = [
   {
     title: 'Community Ambassadors Data Dashboard',
-    imgSrc: 'project-imgs/pb.png',
+    imgSrc: 'project-imgs/pbi.png',
     code: 'https://www.sf.gov/data/community-ambassadors-program-data-2023-2024',
     projectLink: 'httpstalmmunity-ambassadors-program-data-2023-2024',
     tech: ['Excel', 'Power BI', 'PowerPoint', 'Microsoft Suite'],
