@@ -20,7 +20,7 @@ export const About = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I'm currently a senior fellow for{' '}
+              I&apos;m currently a senior fellow for{' '}
               <a
                 className={styles.linkGlow}
                 href='https://www.dreamsffellows.org/2022/alejandro'
@@ -28,9 +28,9 @@ export const About = () => {
               >
                 DreamSF
               </a>{' '}
-              as a data analyst assistant. I recetly finished Code The Dream's
-              advanced practicum where a develpment team built a web app using
-              React, websockets, and node.
+              as a data analyst assistant. I recetly finished Code The
+              Dream&apos;s advanced practicum where a develpment team built a
+              web app using React, websockets, and node.
             </p>
           </Reveal>
           <Reveal>
@@ -43,9 +43,9 @@ export const About = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I'm looking for new positions where I can merge my love for code
-              with my passion for music and cinema. Let's connect if you've got
-              an opening I might like 🔗.
+              I&apos;m looking for new positions where I can merge my love for
+              code with my passion for music and cinema. Let&apos;s connect if
+              you&apos;ve got an opening I might like 🔗.
             </p>
           </Reveal>
           <Reveal>

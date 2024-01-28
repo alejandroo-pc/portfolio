@@ -49,7 +49,7 @@ const projects = [
           Collaborating closely with the data analyst, we have enhanced the
           project’s scope and depth. Our efforts have led to more insightful
           visualizations, offering an accessible and detailed perspective on the
-          Community Ambassadors Programs' activities across diverse
+          Community Ambassadors Programs&apos; activities across diverse
           neighborhoods.
         </p>
       </>
@@ -76,7 +76,7 @@ const projects = [
         <p>
           Developed using React and incorporating Radix-UI, Skill Stacks offers
           a dynamic and user-friendly interface for effective learning. Our
-          application's design approach makes complex functionalities
+          application&apos;s design approach makes complex functionalities
           accessible, enhancing the overall user experience.
         </p>
         <p>
@@ -89,8 +89,8 @@ const projects = [
         <p>
           Throughout the 8-week development cycle, our team embraced an agile
           methodology, focusing on iterative design and continuous improvement.
-          This approach allowed us to refine our app's functionality and user
-          interface, ensuring a seamless and enjoyable learning experience.
+          This approach allowed us to refine our app&apos;s functionality and
+          user interface, ensuring a seamless and enjoyable learning experience.
         </p>
       </>
     ),
