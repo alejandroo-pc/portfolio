@@ -24,7 +24,7 @@ const projects = [
     projectLink: 'httpstalmmunity-ambassadors-program-data-2023-2024',
     tech: ['Excel', 'Power BI', 'PowerPoint', 'Microsoft Suite'],
     description:
-      "Data dashboard showcasing key activities of San Francisco's Community Ambassadors (CAP) to illustrate the program's impact.",
+      "Data dashboard showcasing key activities of San Francisco's Community Ambassadors Program (CAP).",
     modalContent: (
       <>
         <p>
@@ -57,6 +57,36 @@ const projects = [
   },
 
   {
+    title: 'Analog, YouTube to MP3 Converter',
+    imgSrc: 'project-imgs/analog.png',
+    code: 'https://analog-io.vercel.app',
+    projectLink: 'https://github.com/Alejandro-Patino-Camargo/analog-front',
+    tech: ['youtube-dl API', 'React', 'CSS', 'MongoDB'],
+    description: 'A YouTube to MP3 converter',
+    modalContent: (
+      <>
+        <p>
+          Analog simplifies the process of converting YouTube videos to MP3 by
+          utilizing the youtube-dl API for fetching video URLs and downloading
+          them as audio files. The project focuses on efficiency and simplicity,
+          providing users with a seamless experience.
+        </p>
+        <p>
+          The frontend is build with React and CSS, offers an intuitive
+          interface for users to easily input YouTube video URLs and initiate
+          the conversion process. The success of each download is tracked and
+          stored in a MongoDB database
+        </p>
+        <p>
+          While it&apos;s possible to update the successful download count using
+          frontend state, incorporating a MongoDB database was chosen to enhance
+          the project&apos;s scalability and data management capabilities.
+        </p>
+      </>
+    ),
+  },
+
+  {
     title: 'Skill Stacks',
     imgSrc: 'project-imgs/skill-stacks.png',
     code: 'https://github.com/Alejandro-Patino-Camargo/ee-prac-team4-front',
@@ -67,10 +97,10 @@ const projects = [
     modalContent: (
       <>
         <p>
-          At the heart of Skill Stacks is the user-centered UI, meticulously
-          designed to create an intuitive and engaging learning environment. As
-          the UI designer, I focused on crafting an interface that not only
-          looks aesthetically pleasing but also facilitates easy navigation and
+          At the heart of Skill Stacks is the user-centered UI, designed to
+          create an intuitive and engaging learning environment. As the UI
+          designer, I focused on crafting an interface that not only looks
+          aesthetically pleasing but also facilitates easy navigation and
           interaction, ensuring that users remain at the core of the UX design.
         </p>
         <p>
