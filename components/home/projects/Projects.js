@@ -57,7 +57,7 @@ const projects = [
   },
 
   {
-    title: 'Analog, YouTube to MP3 Converter',
+    title: 'Analog',
     imgSrc: 'project-imgs/analog.png',
     code: 'https://github.com/Alejandro-Patino-Camargo/analog-front',
     projectLink: 'https://analog-io.vercel.app',
