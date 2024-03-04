@@ -6,6 +6,7 @@ import { Stats } from './Stats';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 
 export const About = () => {
+  //TODO: Update current position and the experince section to reflect Apprenticeship
   return (
     <section id='about' className='section-wrapper'>
       <SectionHeader title='About' dir='l' />
@@ -13,7 +14,7 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              I am a full-stack software developer based in California with a
+              I am a full-stack engineer based in California with a
               specialization in frontend development, particularly in React.
               However, I am adaptable in using appropriate tools for the job.
             </p>
