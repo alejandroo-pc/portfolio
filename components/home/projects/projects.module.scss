@@ -1,5 +1,10 @@
 .projects {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+
+
   gap: 15rem;
 
   @media (max-width: 768px) {

@@ -161,57 +161,6 @@ const projects = [
       </>
     ),
   },
-
-  {
-    title: 'Song Request API',
-    imgSrc: 'project-imgs/song-request.png',
-    code: 'https://github.com/Alejandro-Patino-Camargo/song-request-api',
-    projectLink: 'https://song-request-api.onrender.com',
-    tech: ['Javascript', 'NodeJS', 'Express', 'MongoDB'],
-    description:
-      "A song reqest app that allows DJ's to easily scope out a crowd and play the right song at the right time.",
-    modalContent: (
-      <>
-        <p>
-          Introducing my first web app—a REST API for song requests. The
-          backend, powered by NodeJS, Express, and MongoDB, ensures seamless
-          performance and data management.
-        </p>
-        <p>
-          The frontend, built with vanilla HTML and CSS, prioritizes simplicity
-          and easy navigation. As a debut project, I focus on delivering a
-          user-friendly experience and laying the foundation for future
-          improvements.
-        </p>
-        <p>Your song requests are waiting! </p>
-      </>
-    ),
-  },
-
-  {
-    title: 'This portfolio!',
-    imgSrc: 'project-imgs/port-1.png',
-    code: 'https://github.com/Alejandro-Patino-Camargo/portfolio',
-    projectLink: ' https://alejandropatino.io',
-    tech: ['React', 'Next.js', 'scss', 'Javascript'],
-    description:
-      'Checkout what I used to create this portfolio, clone and adjust to your style!',
-    modalContent: (
-      <>
-        <p>
-          {' '}
-          Welcome to my portfolio, where design and UX/UI take center stage.
-          Powered by React, Next.js, and SCSS, this showcase offers a seamless,
-          easy-to-follow website experience. A minimalist UI gracefully adapts
-          to all devices, ensuring a consistent journey. Emphasizing
-          inclusivity, the portfolio adheres to WCAG(accessibility) guidelines.
-          Continuous design refinement ensures an ever-evolving user-friendly
-          experience.
-        </p>
-      </>
-    ),
-  },
-
   {
     title: 'Linear Algebra Matrix Determinant Calculator',
     imgSrc: 'project-imgs/matrix.png',
