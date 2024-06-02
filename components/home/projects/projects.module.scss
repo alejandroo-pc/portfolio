@@ -2,19 +2,35 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 90%;
-
-
+  width: 100%;
   gap: 15rem;
-
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
 }
 
+.projectCard {
+  display: flex;
+  flex-direction: row;
+  background: var(--background-light);
+  min-height: 40rem;
+  max-height: 40rem;
+}
+
+.projectText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
 .projectImage {
-  width: 100%;
-  aspect-ratio: 16 / 9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  aspect-ratio: 1 / 1;
   background: var(--background-light);
   cursor: pointer;
   position: relative;
@@ -22,14 +38,9 @@
   overflow: hidden;
 
   img {
-    width: 85%;
-    position: absolute;
+    width: 100%;
     bottom: 0;
-    left: 50%;
-    translate: -50% 20%;
-
     transition: 0.25s all;
-
     border-radius: 0.4rem;
   }
 }

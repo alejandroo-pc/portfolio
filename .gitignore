@@ -3,8 +3,9 @@
 /.pnp
 .pnp.js
 .next
+/.next/*
 /.next
-
+/.next/cache/*
 
 # testing
 /coverage
