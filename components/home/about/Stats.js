@@ -13,9 +13,11 @@ export const Stats = () => {
           </h4>
           <div className={styles.statGrid}>
             <span className='chip'>JavaScript</span>
+            <span className='chip'>Next.js</span>
             <span className='chip'>React</span>
             <span className='chip'>Material-UI</span>
             <span className='chip'>CSS</span>
+            <span className='chip'>Figma</span>
             <span className='chip'>NodeJS</span>
             <span className='chip'>Express</span>
             <span className='chip'>MongoDB</span>
@@ -31,10 +33,10 @@ export const Stats = () => {
             <span>Use for fun</span>
           </h4>
           <div className={styles.statGrid}>
-            <span className='chip'>Figma</span>
-            <span className='chip'>Canva</span>
+            <span className='chip'>Docker</span>
             <span className='chip'>Notion</span>
             <span className='chip'>Ubuntu</span>
+            <span className='chip'>Neovim</span>
           </div>
         </div>
       </Reveal>
