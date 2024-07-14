@@ -28,10 +28,10 @@ const projects = [
     modalContent: (
       <>
         <p>
-          Now in my second year of leading this project, I have emphasized
-          attention to detail, particularly in accessibility. This includes
-          ensuring the use of accessible colors and providing alt text for each
-          page, making the data visualizations inclusive for all users.
+          Leading the project for two years, I have emphasized attention to
+          detail, particularly in accessibility. This includes ensuring the use
+          of accessible colors and providing alt text for each page, making the
+          data visualizations inclusive for all users.
         </p>
         <p>
           My role has involved extensive data cleaning, organization, and
