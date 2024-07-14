@@ -14,12 +14,31 @@ export const Experience = () => {
 
 const experience = [
   {
+    title: 'Code The Dream Labs',
+    position: 'Junior Software Engineer',
+    time: 'March 2024 - present',
+    location: 'Remote',
+    description:
+      'My key responsibilities involve full-stack development, utilizing Next.js as the framework, React, and Material UI on the frontend, and Node.js on the backend. With a strong focus on enhancing user experience and functionality, I welcome feedback to iterate on my contributions and adapt to the evolving needs of our project.',
+    tech: [
+      'Next.js',
+      'React',
+      'Material UI',
+      'Figma',
+      'Node',
+      'MongoDB',
+      'Playwright',
+      'Jest',
+    ],
+  },
+
+  {
     title: 'SF Pathways',
-    position: 'Fellow',
-    time: 'May 2023 - Present ',
+    position: 'Senior Fellow',
+    time: 'May 2023 - March 2024 ',
     location: 'San Fransisco',
     description:
-      "In my role, I lead the creation and enhancement of visualizations for the Community Ambassadors Program (CAP) in San Francisco, utilizing tools like Excel, Power BI, and the Microsoft Suite. My work involves developing interactive dashboards and bar graphs to effectively display key activities by six CAP teams. Collaborating closely with data analyst, I play a pivotal role in deepening our understanding of the program's impact across diverse neighborhoods. I prioritize making these visualizations both insightful and accessible, ensuring they offer a clear and inclusive perspective of our community initiatives.",
+      'I lead the creation visualizations for the Community Ambassadors Program (CAP) in San Francisco, utilizing tools like Excel, Power BI, and the Microsoft Suite. My work involved developing interactive dashboards and bar graphs to effectively display key activities by six CAP teams. I prioritize making these visualizations both insightful and accessible, ensuring they offer a clear and inclusive perspective of the community initiatives.',
     tech: [
       'Excel',
       'PowerBI',
