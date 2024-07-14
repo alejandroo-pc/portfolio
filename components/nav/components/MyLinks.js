@@ -1,10 +1,5 @@
 import styles from './headinglinks.module.scss';
-import {
-  AiFillLinkedin,
-  AiFillGithub,
-  AiFillTwitterCircle,
-  AiFillCodepenCircle,
-} from 'react-icons/ai';
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
@@ -31,7 +26,7 @@ export const MyLinks = () => {
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <Link
-          href='https://github.com/Alejandro-Patino-Camargo'
+          href='https://github.com/alejandroo-pc'
           target='_blank'
           rel='nofollow'
         >

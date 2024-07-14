@@ -59,7 +59,7 @@ const projects = [
   {
     title: 'Analog',
     imgSrc: 'project-imgs/analog.png',
-    code: 'https://github.com/Alejandro-Patino-Camargo/analog-front',
+    code: 'https://github.com/alejandroo-pc/analog-front',
     projectLink: 'https://analog-io.vercel.app',
     tech: ['youtube-dl API', 'React', 'CSS', 'MongoDB'],
     description: 'Convert a YouTube link to a downloadable .mp3 file',
@@ -89,7 +89,7 @@ const projects = [
   {
     title: 'Skill Stacks',
     imgSrc: 'project-imgs/skill-stacks.png',
-    code: 'https://github.com/Alejandro-Patino-Camargo/ee-prac-team4-front',
+    code: 'https://github.com/alejandroo-pc/ee-prac-team4-front',
     projectLink: 'https://ee-prac-team4-front.vercel.app/',
     tech: ['React', 'Radix-UI', 'NodeJS', 'Express', 'MongoDB'],
     description:
@@ -165,7 +165,7 @@ const projects = [
   {
     title: 'Song Request API',
     imgSrc: 'project-imgs/song-request.png',
-    code: 'https://github.com/Alejandro-Patino-Camargo/song-request-api',
+    code: 'https://github.com/alejandroo-pc/song-request-api',
     projectLink: 'https://song-request-api.onrender.com',
     tech: ['Javascript', 'NodeJS', 'Express', 'MongoDB'],
     description:
@@ -191,7 +191,7 @@ const projects = [
   {
     title: 'This portfolio!',
     imgSrc: 'project-imgs/port-1.png',
-    code: 'https://github.com/Alejandro-Patino-Camargo/portfolio',
+    code: 'https://github.com/alejandroo-pc/portfolio',
     projectLink: ' https://alejandropatino.io',
     tech: ['React', 'Next.js', 'scss', 'Javascript'],
     description:
@@ -215,7 +215,7 @@ const projects = [
   {
     title: 'Linear Algebra Matrix Determinant Calculator',
     imgSrc: 'project-imgs/matrix.png',
-    code: 'https://github.com/Alejandro-Patino-Camargo/Determinant-Calculator',
+    code: 'https://github.com/alejandroo-pc/Determinant-Calculator',
     projectLink:
       'https://replit.com/@AlejandroPatinoCamargo/Matrix-Determinant-calculator#main.cpp',
     tech: ['C++'],
