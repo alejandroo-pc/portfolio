@@ -33,10 +33,6 @@ export const Hero = () => {
           </StandardButton>
         </Reveal>
       </div>
-      {/*  
-      TODO: media queries to not render DotGrid for mobile devices
-      <DotGrid /> 
-      */}
     </section>
   );
 };
