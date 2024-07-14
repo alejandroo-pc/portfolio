@@ -62,7 +62,7 @@ const projects = [
     code: 'https://github.com/Alejandro-Patino-Camargo/analog-front',
     projectLink: 'https://analog-io.vercel.app',
     tech: ['youtube-dl API', 'React', 'CSS', 'MongoDB'],
-    description: 'A YouTube to MP3 converter',
+    description: 'Convert a YouTube link to a downloadable .mp3 file',
     modalContent: (
       <>
         <p>
@@ -133,7 +133,7 @@ const projects = [
     projectLink: 'https://phrazel.vercel.app/',
     tech: ['React', 'Tailwind', 'Socket-io', 'NodeJS', 'Express', 'MongoDB'],
     description:
-      'A wordl type game that challenges players to guess a word or phrase.',
+      'A puzzle game that challenges players to guess a word or phrase.',
     modalContent: (
       <>
         <p>
