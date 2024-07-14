@@ -13,14 +13,14 @@ export const Stats = () => {
           </h4>
           <div className={styles.statGrid}>
             <span className='chip'>JavaScript</span>
-            <span className='chip'>HTML</span>
-            <span className='chip'>CSS</span>
             <span className='chip'>React</span>
+            <span className='chip'>Material-UI</span>
+            <span className='chip'>CSS</span>
             <span className='chip'>NodeJS</span>
             <span className='chip'>Express</span>
             <span className='chip'>MongoDB</span>
-            <span className='chip'>GitHub</span>
-            <span className='chip'>Jira</span>
+            <span className='chip'>Playwright</span>
+            <span className='chip'>Jest</span>
           </div>
         </div>
       </Reveal>
