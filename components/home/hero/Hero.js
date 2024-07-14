@@ -1,6 +1,5 @@
 import { StandardButton } from '@/components/buttons/StandardButton';
 import { Reveal } from '@/components/utils/Reveal';
-import { DotGrid } from './DotGrid';
 import styles from './hero.module.scss';
 
 export const Hero = () => {
@@ -21,8 +20,7 @@ export const Hero = () => {
           <p className={styles.aboutCopy}>
             I&apos;m a first-generation college student with a human-centered
             approach to the web. I aim to empower underrepresented communities
-            by helping businesses establish a robust online presence through
-            personalized websites. With a keen eye for design and a strong
+            through open source. With a keen eye for design and a strong
             technical skillset, I&apos;m committed to bridging the digital
             divide.
           </p>

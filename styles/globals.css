@@ -12,7 +12,7 @@
   --text-xs: 1.6rem;
   --text-sm: 1.8rem;
   --text-md: 2.2rem;
-  --text-lg: 3.6rem;
+  --text-lg: 3.5rem;
   --text-xl: 5.6rem;
   --text-2xl: 9.6rem;
 }
@@ -65,4 +65,10 @@ a {
   background: var(--background-light);
   padding: 0.2rem 0.8rem;
   border-radius: 999px;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 50%;
+  }
 }
