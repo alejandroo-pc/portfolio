@@ -19,9 +19,10 @@ export const Projects = () => {
 const projects = [
   {
     title: 'Community Ambassadors Data Dashboard',
-    imgSrc: 'project-imgs/pbi.png',
+    imgSrc: 'project-imgs/cap.png',
     code: 'https://www.sf.gov/data/community-ambassadors-program-data-2023-2024',
-    projectLink: 'httpstalmmunity-ambassadors-program-data-2023-2024',
+    projectLink:
+      'https://www.sf.gov/data/community-ambassadors-program-data-2023-2024',
     tech: ['Excel', 'Power BI', 'PowerPoint', 'Microsoft Suite'],
     description:
       "Data dashboard showcasing key activities of San Francisco's Community Ambassadors Program (CAP).",
