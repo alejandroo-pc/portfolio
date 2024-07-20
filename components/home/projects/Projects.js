@@ -192,7 +192,7 @@ const projects = [
     title: 'This portfolio!',
     imgSrc: 'project-imgs/port-1.png',
     code: 'https://github.com/alejandroo-pc/portfolio',
-    projectLink: ' https://alejandropatino.io',
+    projectLink: 'https://alejandropatino.io',
     tech: ['React', 'Next.js', 'scss', 'Javascript'],
     description:
       'Checkout what I used to create this portfolio, clone and adjust to your style!',

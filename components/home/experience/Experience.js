@@ -34,7 +34,7 @@ const experience = [
 
   {
     title: 'SF Pathways',
-    position: 'Senior Fellow',
+    position: 'Data Analyst Assistant',
     time: 'May 2023 - March 2024 ',
     location: 'San Fransisco',
     description:
@@ -45,35 +45,6 @@ const experience = [
       'Microsoft Suite',
       'Figma',
       'Spanish translastion & interpretation',
-    ],
-  },
-
-  {
-    title: 'Code The Dream',
-    position: 'Frontend Fellow',
-    time: 'October 2023 - December 2023',
-    location: 'Remote',
-    description:
-      "Participated in the frontend development of Skill Stacks, a dynamic flashcard app, during an 8-week Practicum. Collaborated with a team of developers to design and implement engaging features, ensuring seamless integration and user experience. Actively participated in weekly stand-up meetings and sprint planning, contributing to the project's agile development process.",
-    tech: ['React', 'Radix-UI', 'NodeJS', 'Express', 'MongoDB', 'Git', 'Agile'],
-  },
-
-  {
-    title: 'Code The Dream',
-    position: 'Backend Fellow',
-    time: 'Feb 2023 - May 2023 ',
-    location: 'Remote',
-    description:
-      'In the 8-week development cycle, I collaborate with developers and mentors to create an engaging game using Socket-io. In addition, I participated in weekly stand-up meetings and sprint planning sessions to ensure the project is progressing smoothly.',
-    tech: [
-      'React',
-      'Tailwind',
-      'Socket-io',
-      'Node',
-      'Express',
-      'MongoDB',
-      'Jira',
-      'Agile',
     ],
   },
 
@@ -90,16 +61,6 @@ const experience = [
       'Microsoft Suite',
       'Spanish translastion & interpretation',
     ],
-  },
-
-  {
-    title: 'Code The Dream',
-    position: 'NodeJS Backend Student',
-    time: 'Nov 2022 - Jan 2023',
-    location: 'Remote',
-    description:
-      'I built server-side applications, created APIs, and worked with databases. In addition, I understand NodeJS concepts such as routes, middleware, event-driven programming, and asynchronous code.',
-    tech: ['Javascript', 'NodeJS', 'Express', 'MongoDB'],
   },
 
   {
