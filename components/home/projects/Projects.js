@@ -189,30 +189,6 @@ const projects = [
   },
 
   {
-    title: 'This portfolio!',
-    imgSrc: 'project-imgs/port-1.png',
-    code: 'https://github.com/alejandroo-pc/portfolio',
-    projectLink: 'https://alejandropatino.io',
-    tech: ['React', 'Next.js', 'scss', 'Javascript'],
-    description:
-      'Checkout what I used to create this portfolio, clone and adjust to your style!',
-    modalContent: (
-      <>
-        <p>
-          {' '}
-          Welcome to my portfolio, where design and UX/UI take center stage.
-          Powered by React, Next.js, and SCSS, this showcase offers a seamless,
-          easy-to-follow website experience. A minimalist UI gracefully adapts
-          to all devices, ensuring a consistent journey. Emphasizing
-          inclusivity, the portfolio adheres to WCAG(accessibility) guidelines.
-          Continuous design refinement ensures an ever-evolving user-friendly
-          experience.
-        </p>
-      </>
-    ),
-  },
-
-  {
     title: 'Linear Algebra Matrix Determinant Calculator',
     imgSrc: 'project-imgs/matrix.png',
     code: 'https://github.com/alejandroo-pc/Determinant-Calculator',

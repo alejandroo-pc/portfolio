@@ -52,6 +52,7 @@ a {
   margin: auto;
   padding: 9.6rem;
   overflow: hidden;
+  padding-bottom: 17rem;
 }
 
 @media (max-width: 768px) {
