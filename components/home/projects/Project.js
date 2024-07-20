@@ -42,12 +42,7 @@ export const Project = ({
         animate={controls}
         transition={{ duration: 0.75 }}
       >
-        <div
-          onMouseEnter={() => setHovered(true)}
-          onMouseLeave={() => setHovered(false)}
-          onClick={() => setIsOpen(true)}
-          className={styles.projectImage}
-        >
+        <div onClick={() => setIsOpen(true)} className={styles.projectImage}>
           <img
             src={imgSrc}
             alt={`An image of the ${title} project.`}
