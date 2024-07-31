@@ -2,8 +2,8 @@
   max-width: 1150px;
   display: flex;
   flex-direction: column;
-  align-items: start; /* Center items vertically */
-  justify-content: center; /* Center items horizontally */
+  align-items: flex-start;
+  justify-content: center;
   position: relative;
   max-width: 100rem;
   margin: auto;
@@ -16,6 +16,7 @@
     align-items: center;
 
     margin-bottom: 2.4rem;
+
     span {
       font-size: var(--text-md);
       font-weight: bold;
@@ -31,4 +32,3 @@
   gap: 1.2rem;
   margin-bottom: 4.8rem;
 }
-
