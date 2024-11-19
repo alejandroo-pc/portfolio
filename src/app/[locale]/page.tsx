@@ -95,7 +95,7 @@ export default function Home(
 								<Text
 									wrap="balance"
 									onBackground="neutral-weak"
-									variant="heading-default-xl">
+									variant="heading-default-s">
 									{home.subline}
 								</Text>
 							</Flex>
