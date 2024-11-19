@@ -36,8 +36,6 @@ yarn-error.log*
 
 # vercel
 .vercel
-*.vercel
-.vercel/*
 
 # pwa
 /public/workbox-*.js
@@ -49,3 +47,4 @@ yarn-error.log*
 /playwright-report/
 /playwright/.cache/
 /e2e/.storage/*.json
+/_db_dump/*
