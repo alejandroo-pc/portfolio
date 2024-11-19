@@ -68,7 +68,7 @@ const tertiary: FontConfig | undefined = undefined;
 /*
 */
 
-const code = Source_Code_Pro({
+const code = Inter({
 	variable: '--font-code',
 	subsets: ['latin'],
 	display: 'swap',
