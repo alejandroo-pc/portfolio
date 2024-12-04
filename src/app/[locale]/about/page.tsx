@@ -245,6 +245,7 @@ export default function About({
                 as="h2"
                 id={about.work.title}
                 variant="display-strong-s"
+                marginTop="l"
                 marginBottom="m"
               >
                 {about.work.title}
@@ -326,6 +327,7 @@ export default function About({
                 as="h2"
                 id={about.studies.title}
                 variant="display-strong-s"
+                marginTop="xl"
                 marginBottom="m"
               >
                 {about.studies.title}
