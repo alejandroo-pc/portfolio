@@ -77,7 +77,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/alejandropatinoc/30min",
   },
   intro: {
     display: true,
