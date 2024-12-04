@@ -36,11 +36,11 @@ const social = [
     icon: "linkedin",
     link: "https://www.linkedin.com/in/alejandropatinoc",
   },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.net/@aleejandro.pc",
-  },
+  // {
+  //   name: "Threads",
+  //   icon: "threads",
+  //   link: "https://www.threads.net/@aleejandro.pc",
+  // },
   {
     name: "Email",
     icon: "email",
