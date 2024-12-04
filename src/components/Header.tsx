@@ -56,6 +56,12 @@ export const Header = () => {
   const pathname = usePathname() ?? "";
   const params = useParams();
 
+  useEffect(() => {
+    if (pathname === "/") {
+      router.replace(`/${params?.locale}/about`);
+    }
+  }, [pathname, params?.locale, router]);
+
   function handleLanguageChange(locale: string) {
     const nextLocale = locale as Locale;
     startTransition(() => {
@@ -104,7 +110,8 @@ export const Header = () => {
             justifyContent="center"
           >
             <Flex gap="4" textVariant="body-default-s">
-              {/* routes["/"] && (
+              {/* Commented out the home button as per your original request
+              routes["/"] && (
                 <ToggleButton
                   prefixIcon="home"
                   href={`/${params?.locale}`}
@@ -114,7 +121,7 @@ export const Header = () => {
                     {home.label}
                   </Flex>
                 </ToggleButton>
-              )*/}
+              ) */}
               {routes["/about"] && (
                 <ToggleButton
                   prefixIcon="person"
