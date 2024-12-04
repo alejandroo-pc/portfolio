@@ -104,7 +104,7 @@ export const Header = () => {
             justifyContent="center"
           >
             <Flex gap="4" textVariant="body-default-s">
-              {routes["/"] && (
+              {/* routes["/"] && (
                 <ToggleButton
                   prefixIcon="home"
                   href={`/${params?.locale}`}
@@ -114,7 +114,7 @@ export const Header = () => {
                     {home.label}
                   </Flex>
                 </ToggleButton>
-              )}
+              )*/}
               {routes["/about"] && (
                 <ToggleButton
                   prefixIcon="person"

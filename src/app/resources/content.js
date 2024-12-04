@@ -80,14 +80,13 @@ const about = {
     link: "https://cal.com",
   },
   intro: {
-    display: false,
+    display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for
-        transforming complex challenges into simple, elegant design solutions.
-        Her work spans digital interfaces, interactive experiences, and the
-        convergence of design and technology.
+        I'm a developer empowering underrepresented communities through
+        open source. After hours I create software, DJ, and love optimizing my
+        neovim workflow!
       </>
     ),
   },
