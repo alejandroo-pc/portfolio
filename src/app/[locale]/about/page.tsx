@@ -128,6 +128,16 @@ export default function About({
             alignItems="center"
           >
             <Avatar src={person.avatar} size="xl" />
+            {/* 
+            <Flex
+                gap="8"
+                alignItems="center">
+                <Icon
+                    onBackground="accent-weak"
+                    name="globe"/>
+                {person.location}
+            </Flex>
+            */}
             {person.languages.length > 0 && (
               <Flex wrap gap="8">
                 {person.languages.map((language, index) => (
@@ -397,4 +407,3 @@ export default function About({
     </Flex>
   );
 }
-
