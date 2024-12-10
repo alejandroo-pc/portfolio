@@ -13,7 +13,7 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <h2 className={styles.subTitle}>
-            <span>Software Stack Engineer</span>
+            <span>Software Engineer</span>
           </h2>
         </Reveal>
         <Reveal>
